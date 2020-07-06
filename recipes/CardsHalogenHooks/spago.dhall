@@ -1,4 +1,4 @@
-{ name = "CardsHalogen"
+{ name = "CardsHalogenHooks"
 , dependencies =
   [ "console"
   , "effect"
@@ -8,5 +8,5 @@
   , "random"
   ]
 , packages = ../../packages.dhall
-, sources = [ "recipes/CardsHalogen/src/**/*.purs" ]
+, sources = [ "recipes/CardsHalogenHooks/src/**/*.purs" ]
 }
